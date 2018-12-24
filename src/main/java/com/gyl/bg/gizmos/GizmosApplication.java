@@ -11,9 +11,9 @@ public class GizmosApplication {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(GizmosApplication.class, args);
-        String[] beanDefinitionNames = context.getBeanDefinitionNames();
-        for(String name:beanDefinitionNames){
-            System.out.println("===>"+name);
-        }
+//        String[] beanDefinitionNames = context.getBeanDefinitionNames();
+//        for(String name:beanDefinitionNames){
+//            System.out.println("===>"+name);
+//        }
     }
 }
