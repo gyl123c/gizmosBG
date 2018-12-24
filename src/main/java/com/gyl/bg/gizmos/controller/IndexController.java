@@ -10,4 +10,8 @@ public class IndexController {
     public String index(){
         return "/index";
     }
+    @RequestMapping("/testSocket")
+    public String testSocket(){
+        return "/socket/testSocket";
+    }
 }
